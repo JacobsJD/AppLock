@@ -1,0 +1,38 @@
+:local(.header-box-0) {
+    width: 100%;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+}
+
+:local(.header-box-1) {
+    width: 100%;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: fixed;
+    top: 0;
+    opacity: 0.95;
+    transition: .5s;
+    box-shadow: 0 5px 10px #0000003d, 0 5px 10px #0000003d;
+}
+
+:local(.product-logo) {
+    background: linear-gradient(to right, #f0a25d, orangered);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 100%;
+    width: 100px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}

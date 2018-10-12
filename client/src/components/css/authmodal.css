@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
+
+:local(.authmodal_container) {
+    font-family: 'Mukta Malar', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 5px;
+}
+
+:local(.form) {
+    width: 30%;
+    /* height: 70%; */
+    background-color: white;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+
+:local(.form_header) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    /* width: 100%; */
+    /* height: 10%; */
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+:local(.field_container) {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: greenyellow; */
+}
+
+:local(.half_field_container) {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: greenyellow; */
+    align-content: space-around;
+}
+
+:local(.field_warning_container) {
+    width: 50%;
+    /* height: 30px; */
+    /* background-color: purple; */
+    /* display: flex; */
+    align-content: center;
+}
+
+:local(.field_input_half) {
+    background-color: #fff;
+    outline: 0px none transparent;
+    border-radius: 5px;
+    border: 1px solid orange;
+    height: 30px;
+    width: 130px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+    display: flex;
+    align-self: center;
+    margin-left: 25px;
+}
+
+:local(.field_input_halfW) {
+    background-color: #fff;
+    outline: 0px none transparent;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    width: 130px;
+    box-shadow: 1px 1px 1px 1px rgba(255, 69, 0, 0.2), 1px 1px 1px 1px rgba(255, 69, 0, 0.4);
+    height: 30px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+:local(.field_input_halfW::-webkit-input-placeholder) {
+    color: orangered;
+    font-weight: bold;
+}
+:local(.field_input_half::-webkit-input-placeholder) {
+    color: orange;
+    font-weight: bold;
+}
+
+:local(.field_input) {
+    background-color: #fff;
+    outline: 0px none transparent;
+    border-radius: 5px;
+    border: 1px solid orange;
+    height: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+:local(.field_inputW) {
+    background-color: #fff;
+    outline: 0px none transparent;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    box-shadow: 1px 1px 1px 1px rgba(255, 69, 0, 0.2), 1px 1px 1px 1px rgba(255, 69, 0, 0.4);
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+:local(.field_inputW::-webkit-input-placeholder) {
+    color: orangered;
+    font-weight: bold;
+}
+
+:local(.field_input::-webkit-input-placeholder) {
+    color: orange;
+    font-weight: bold;
+}
+
+:local(.continuebtn) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+:local(.warning_box) {
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+    text-align: center;
+    align-self: flex-end;
+}
+
+:local(.warning_box_half) {
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+    text-align: center;
+    align-self: flex-end;
+}
+
+:local(.warning) {
+    font-size: 10px;
+    color: orangered;
+    font-weight: bold;
+}
+
+
+:local(.or) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20px;
+}
+
+:local(.orline) {
+    width: 40%;
+    height: 1px;
+    top: 60%;
+    position: relative;
+    background-color: orange;
+    justify-self: flex-end;
+}
+
+:local(.orword) {
+    font-weight: bold;
+    color: orange;
+}
+
+:local(.form_changer) {
+    color: grey;
+    text-align: center;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 12%;
+}
+
+:local(.form_changerbtn) {
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+:local(.form_changerbtn:hover) {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}

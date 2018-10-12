@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
+
+:local(.button_container) {
+    font-family: 'Mukta Malar', sans-serif;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+:local(.hover_bar0) {
+    width: 0%;
+    height: 5px;
+    background-color: orange;
+    float: bottom;
+    position: relative;
+    transition: 0.3s;
+    /* top: 5px; */
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+:local(.hover_bar1) {
+    width: 100%;
+    height: 5px;
+    background-color: orangered;
+    float: bottom;
+    position: relative;
+    transition: 0.3s;
+    /* top: 5px; */
+    margin: 0 auto;
+    border-radius: 5px;
+}
